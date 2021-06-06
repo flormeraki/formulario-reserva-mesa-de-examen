@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(145, 181, 218);
+}
+
+h1 {
+	color:#fff;
+
+
+}
+.grid-container {
+	display: grid;
+	grid-template-rows: 50px;
+	grid-template-columns: repeat(4,minmax(min-content,max-content));
+	grid-auto-rows: 50px;
+	
+}
+
+.grid-container .grid-item {
+	padding: 10px;
+	border: 1px solid #26a;
+	margin: 5px;
+	border-radius: 5%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.boton-confirmar {
+	padding: 9px 40px;
+	background: #48e;
+	color: #fff;
+	border: none;
+	margin: 30px;
+	border-radius: 5%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.boton-confirmar:hover {
+    background-color: rgb(92, 152, 212); 
+    color: white;
+}
